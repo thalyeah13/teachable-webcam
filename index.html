@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Webcam Classification</title>
+
+    <!-- TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.12.0/dist/tf.min.js"></script>
+
+    <!-- Teachable Machine Image Library -->
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+  </head>
+  <body>
+    <h1>Webcam Classification</h1>
+
+    <!-- Tempat webcam tampil -->
+    <div id="webcam"></div>
+
+    <!-- Tombol prediksi -->
+    <button onclick="predict()">Prediksi</button>
+
+    <!-- Hasil klasifikasi -->
+    <div id="result"></div>
+
+    <!-- Script utama -->
+    <script src="script.js"></script>
+  </body>
+</html>
