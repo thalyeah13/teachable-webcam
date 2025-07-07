@@ -1,0 +1,53 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #1e3c72, #2a5298); /* Gradasi biru */
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin: 0;
+}
+
+h1 {
+  color: #ffffff;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+#webcam {
+  margin: 0 auto;
+  width: 320px;
+  height: 240px;
+  background-color: #ffffff22;
+  border: 2px solid #ffffff55;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  margin-top: 25px;
+  font-size: 1.2rem;
+  background-color: #ffffff22;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
