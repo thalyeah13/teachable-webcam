@@ -1,53 +1,24 @@
+/* Global Style */
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to right, #1e3c72, #2a5298); /* Gradasi biru */
-  color: white;
-  text-align: center;
-  padding: 30px;
-  margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #dbeafe, #bfdbfe); /* biru muda gradasi */
+    color: #1e3a8a;
+    text-align: center;
+    margin: 0;
+    padding: 40px 20px;
 }
 
+/* Judul Halaman */
 h1 {
-  color: #ffffff;
-  margin-bottom: 40px;
-  font-size: 2.5rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    font-size: 2.6rem;
+    margin-bottom: 30px;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+    color: #1e40af;
 }
 
+/* Webcam Area */
 #webcam {
-  margin: 0 auto;
-  width: 320px;
-  height: 240px;
-  background-color: #ffffff22;
-  border: 2px solid #ffffff55;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-}
-
-button {
-  margin-top: 20px;
-  padding: 12px 24px;
-  font-size: 16px;
-  color: #fff;
-  background-color: #007bff;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #0056b3;
-}
-
-#result {
-  margin-top: 25px;
-  font-size: 1.2rem;
-  background-color: #ffffff22;
-  padding: 10px;
-  border-radius: 10px;
-  width: 300px;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
+    width: 320px;
+    height: 240px;
+    margin: 0 auto 20px;
+    border: 3px solid rgba(30, 64
