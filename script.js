@@ -47,13 +47,13 @@ async function predict() {
 function getSuggestion(label) {
   switch (label.toLowerCase()) {
     case "kertas":
-      return "Daur ulang menjadi kertas baru, tisu, atau kerajinan tangan.";
+      return "Kertas bekas bisa didaur ulang, dijadikan kerajinan, atau dikomposkan.";
     case "plastik":
-      return "Cacah menjadi biji plastik atau dilelehkan untuk produk baru.";
+      return "Plastik dicuci lalu didaur ulang, dijadikan ecobrick atau kerajinan.";
     case "logam":
-      return "Lelehkan untuk dijadikan logam baru atau dijual ke pengepul.";
+      return "Logam dibersihkan lalu dilebur, dijual, atau dimanfaatkan sebagai kerajinan.";
     case "kaca":
-      return "Dapat dicuci dan digunakan ulang atau dilebur kembali.";
+      return "Kaca dipisah warna, digunakan ulang, dilebur, atau dijadikan hiasan.";
     case "organik":
       return "Olah menjadi kompos atau pakan ternak.";
     default:
